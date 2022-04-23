@@ -12,21 +12,21 @@ Multiplayer PACMAN game with chat made for a project required for **RIT Croatia*
 
 ### Repository Tree
 
-- .assess
-  - .assess/src
+- [.assess](.assess)
+  - [assess/src](.assess/assess/src)
     - App.java.assess.assess
-  - .src
+  - [.src](.assess/src)
     - App.java.assess
     - Application.java.assess
     - Server.java.assess
-- .assessme
+- [.assessme](.assessme)
   - assess.me
-- .vscode
+- [.vscode](.vscode)
   - launch.json
   - settings.json
-- bin 
+- [bin](bin)
   - `Various compiled classes from the java files in 'pacman-project/src'`
-- src
+- [src](src)
   - Client.java
   - Server.java
   - logo.png
