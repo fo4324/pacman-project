@@ -30,4 +30,3 @@ Multiplayer PACMAN game with chat made for a project required for **RIT Croatia*
   - Client.java
   - Server.java
   - logo.png
-- README.md
