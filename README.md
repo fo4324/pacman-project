@@ -8,7 +8,7 @@ Felicio Orlandini
 
 ### Description
 
-Multiplayer PACMAN game with chat.
+Multiplayer PACMAN game with chat made for a project required for **RIT Croatia**
 
 ### Repository Tree
 
