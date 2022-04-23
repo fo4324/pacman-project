@@ -20,7 +20,7 @@ import javafx.stage.WindowEvent;
 
 /**
  * A client for the PACMAN final project for Computational Problem Solving in the information domain II
- * @author F. Orlandini & Zaid Alkabani
+ * @author F. Orlandini
  * @version 20042022
  * @ASSESSME.INTENSITY:LOW
  */
