@@ -1,18 +1,32 @@
-## Getting Started
+# PACMAN Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![pacman logo](src/logo.png)
 
-## Folder Structure
+### Author
 
-The workspace contains two folders by default, where:
+Felicio Orlandini
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Description
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Multiplayer PACMAN game with chat made for a project required for **RIT Croatia**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Repository Tree
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- [.assess](.assess)
+  - [.assess/src](.assess/.assess/src)
+    - App.java.assess.assess
+  - [.src](.assess/src)
+    - App.java.assess
+    - Application.java.assess
+    - Server.java.assess
+- [.assessme](.assessme)
+  - assess.me
+- [.vscode](.vscode)
+  - launch.json
+  - settings.json
+- [bin](bin)
+  - `Various compiled classes from the java files in 'pacman-project/src'`
+- [src](src)
+  - Client.java
+  - Server.java
+  - logo.png
