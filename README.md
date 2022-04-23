@@ -24,8 +24,8 @@ Multiplayer PACMAN game with chat.
 - .vscode
   - launch.json
   - settings.json
-- bin
-  `Various compiled classes from the java files in 'pacman-project/src'`
+- bin 
+  - `Various compiled classes from the java files in 'pacman-project/src'`
 - src
   - Client.java
   - Server.java
