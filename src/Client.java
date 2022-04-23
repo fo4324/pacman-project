@@ -9,6 +9,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextInputDialog;
@@ -70,16 +71,17 @@ public class Client extends Application {
         hbInput.getChildren().addAll(tfInput, btSend);
         hbInput.setAlignment(Pos.CENTER);
 
-        hbConnect.getChildren().addAll(tfConnect, btConnect);
+        hbConnect.getChildren().addAll(new Label("IP: "), tfConnect, btConnect);
         hbConnect.setAlignment(Pos.CENTER);
         
-        root.getChildren().addAll(hbConnect, taClients, taLog, hbInput);
+        root.getChildren().addAll(hbConnect, new Label("Connected clients:"), taClients, new Label("Chat:") , taLog, hbInput);
+        root.setAlignment(Pos.CENTER);
 
         taClients.setEditable(false);
         taClients.setPrefHeight(150);
 
         taLog.setEditable(false);
-        taLog.setPrefHeight(250);
+        taLog.setPrefHeight(200);
 
         stage.setX(500);
         stage.setY(0);

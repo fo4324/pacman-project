@@ -11,6 +11,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.layout.VBox;
@@ -56,13 +57,13 @@ public class Server extends Application {
         });
 
         // GUI Layout
-        root.getChildren().addAll(btStart, taClients, taLog);
+        root.getChildren().addAll(btStart, new Label("Connected clients:"), taClients, new Label("Server log:"), taLog);
         root.setAlignment(Pos.CENTER);
 
         taClients.setPrefHeight(150);
         taClients.setEditable(false);
 
-        taLog.setPrefHeight(350);
+        taLog.setPrefHeight(225);
         taLog.setEditable(false);
 
         stage.setResizable(false);
