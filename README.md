@@ -13,7 +13,7 @@ Multiplayer PACMAN game with chat made for a project required for **RIT Croatia*
 ### Repository Tree
 
 - [.assess](.assess)
-  - [assess/src](.assess/assess/src)
+  - [.assess/src](.assess/.assess/src)
     - App.java.assess.assess
   - [.src](.assess/src)
     - App.java.assess
