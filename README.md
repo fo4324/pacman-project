@@ -1,6 +1,6 @@
 # PACMAN Project
 
-[pacman logo](src/logo.png)
+![pacman logo](src/logo.png)
 
 ### Authors
 
