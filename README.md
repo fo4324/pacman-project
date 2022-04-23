@@ -2,15 +2,16 @@
 
 ![pacman logo](src/logo.png)
 
-### Authors
+### Author
 
-- Felicio Orlandini
+Felicio Orlandini
 
 ### Description
 
-`A PACMAN multiplayer game with chat.`
+Multiplayer PACMAN game with chat.
 
-Repository tree:
+### Repository Tree
+
 - .assess
   - .assess/src
     - App.java.assess.assess
@@ -24,7 +25,7 @@ Repository tree:
   - launch.json
   - settings.json
 - bin
-  - `Various compiled classes from the java files in 'pacman-project/src'`
+  `Various compiled classes from the java files in 'pacman-project/src'`
 - src
   - Client.java
   - Server.java
