@@ -54,7 +54,7 @@ public class Client extends Application {
     // Launching the Application
     public void start(Stage stage) {
         // Application title
-        stage.setTitle("PACMAN Client");
+        stage.setTitle("PACMAN Chat");
 
         // Handling the window close
         stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
