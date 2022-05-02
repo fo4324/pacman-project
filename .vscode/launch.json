@@ -6,6 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Game",
+            "request": "launch",
+            "mainClass": "Game",
+            "projectName": "pacman_project_cd90d362",
+            "vmArgs": "--module-path C:\\Java\\javafx-sdk-17.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "pacman_project_cd90d362",
+            "vmArgs": "--module-path C:\\Java\\javafx-sdk-17.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "pacman_project_cd90d362",
+            "vmArgs": "--module-path C:\\Java\\javafx-sdk-17.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Launch Client",
             "request": "launch",
             "mainClass": "Client",
@@ -24,7 +48,7 @@
             "name": "Launch Server",
             "request": "launch",
             "mainClass": "Server",
-            "projectName": "pacman_project_34369452",
+            "projectName": "pacman_project",
             "vmArgs": "--module-path C:\\Java\\javafx-sdk-17.0.2\\lib --add-modules javafx.controls,javafx.fxml"
         }
     ],
